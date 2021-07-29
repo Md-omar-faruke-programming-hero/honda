@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/star.png" type="image/x-icon" />
+    <!-- fontawasome -->
+    <script src="https://kit.fontawesome.com/d837fa9013.js" crossorigin="anonymous"></script>
+    <!-- googlefont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
+    <!-- boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Bike-hunter</title>
+  </head>
+  <body>
+    <header class="backgroundcolor">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contacts</a>
+              </li>
+            </ul>
+            <a class="navbar-brand" href="#"
+              ><button type="button" class="text-white btn color-b">login</button></a
+            >
+          </div>
+        </div>
+      </nav>
+
+      <section class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mt-5">
+            <small class="text-white">
+              New Honda Exclusive Authorized Dealer Showroom Opening at Shibganj, Chapai Nawabganj
+            </small>
+            <h1 class="text-white">Honda CBR 300R</h1>
+            <p class="textcolor">
+              Sports bikes! These are kind of dream bikes in our Bangladesh, because of cc limit or many other
+              issues we the bike lovers cannot buy our desired bike, even if we have money. Therefore, we have to
+              buy which we had in our local market, and if we look down into our local market then one of the most
+              affordable and eye catching sports bike in Bangladesh is CBR 300R
+            </p>
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="text-white btn color-b"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Purchase
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    Welcome at <code>"Bike-hunter.com"</code> For this process you have to login first.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">login</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="images/header-bike.png" class="img-fluid" alt="bike picture" />
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <!-- bike feature section -->
+      <section class="container my-5">
+        <div class="text-center mb-5">
+          <h1>Fetured Bikes 2021</h1>
+          <small class="color">Best bike collection</small>
+          <hr width="58px" class="m-auto color">
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <img src="images/feature-bike.jpg" class="grayscale img-fluid" alt="" />
+          </div>
+          <div class="col-lg-4">
+            <img src="images/feature-bike.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg-4">
+            <img src="images/feature-bike.jpg" class="grayscale img-fluid" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- bike feature section -->
+      <!-- latest news section -->
+      <section class="container my-5">
+        <h1 class="text-center my-5">Latest News</h1>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card h-100 p-2 rounded-3 shadow-lg">
+              <img src="images/bike-1.png" class="rounded-3 bg-light card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                <p class="color-p card-text">
+                  XDiavel, the Ducati cruiser that combines the best of both worlds, is renewed, still remaining
+                  true to its philosophy. The new sports version, the Black Star, ...
+                </p>
+              </div>
+              <div>
+                <button class="btn btn-outline-danger">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card h-100 p-2 rounded-3 shadow-lg">
+              <img src="images/bike-2.png" class="rounded-3 bg-light card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Motorcycles & Scooters</h5>
+                <p class="color-p card-text">
+                  Motorcycles & Scooters Dealer at Stoke- On -Trent We offer Motorcycles & Scooters, new, ex-demo
+                  and used. All styles and sizes with financing & servicing.
+                </p>
+              </div>
+              <div>
+                <button class="btn btn-outline-danger">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card h-100 p-2 rounded-3 shadow-lg">
+              <img src="images/bike-3.png" class="rounded-3 bg-light card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">2021 Honda CBR500R</h5>
+                <p class="color-p card-text">
+                  2021 CBR500R ABS OVERVIEW - Honda Is it any wonder why the Honda CBR500R is one of our most
+                  popular sportbikes? It just gets so many things right. Price.
+                </p>
+              </div>
+              <div>
+                <button class="btn btn-outline-danger">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- latest news section -->
+      <!-- happy clients says -->
+      <section class="container my-5">
+        <h1 class="text-center my-5">Happy <span class="color">Clients Says</span></h1>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 col-sm-12 my-5">
+            <div class="card h-100 p-2 rounded-3 shadow-lg d-flex flex-column align-items-center">
+              <img src="images/user-1.png" class="w-75 p-5 bg-white card-img-top" alt="..." />
+              <div class="card-body">
+                <small class="color-p card-text"
+                  >This custom machine that's handmade in Italy channels the lo-pros of the 1980s with its retro
+                  looks but it has a totally modern performance</small
+                >
+              </div>
+              <div class="my-5">
+                <i class="color fas fa-star"></i>
+                <i class="color fas fa-star"></i>
+                <i class="color fas fa-star"></i>
+                <i class="color fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p class="text-primary">Regina Miles</p>
+              <small>Banker</small>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 my-5">
+            <div class="card h-100 p-2 rounded-3 shadow-lg d-flex flex-column align-items-center">
+              <img src="images/user-2.png" class="w-75 p-5 bg-white card-img-top" alt="..." />
+              <div class="card-body">
+                <small class="color-p card-text"
+                  >This custom machine that's handmade in Italy channels the lo-pros of the 1980s with its retro
+                  looks but it has a totally modern performance</small
+                >
+              </div>
+              <div class="my-5">
+                <i class="color fas fa-star"></i>
+                <i class="color fas fa-star"></i>
+                <i class="color fas fa-star"></i>
+                <i class="color fas fa-star-half"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p class="text-primary">Regina Miles</p>
+              <small>Doctor</small>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 my-5">
+            <div class="card h-100 p-2 rounded-3 shadow-lg d-flex flex-column align-items-center">
+              <img src="images/user-1.png" class="w-75 p-5 bg-white card-img-top" alt="..." />
+              <div class="card-body">
+                <small class="color-p card-text"
+                  >This custom machine that's handmade in Italy channels the lo-pros of the 1980s with its retro
+                  looks but it has a totally modern performance</small
+                >
+              </div>
+              <div class="my-5">
+                <i class="color fas fa-star"></i>
+                <i class="color fas fa-star"></i>
+                <i class="color fas fa-star"></i>
+                <i class="color fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p class="text-primary">Regina Miles</p>
+              <small>Banker</small>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- happy clients says -->
+
+      <!-- Frequently Asked Questions -->
+      <section class="container">
+        <h1 class="text-center my-5">Frequently Asked <span class="color">Questions</span></h1>
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="images/faq.png" width="100%" class="p-5" alt="" />
+          </div>
+          <div class="col-lg-6 p-5">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    What should I know before riding a bike?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong> How to do a Pre-Ride Safety Check</strong> Before heading out on a bike ride, there
+                    are a few things you should do to make sure that your bicycle is safe. ... Check your tire
+                    pressure. ... Check wheel quick-releases. ... Check your brakes. ... Check your wheels. ...
+                    Check your crank arms and pedals. ... Check stem and headset. ... Check your chain.
+                  </div>
+                </div>
+              </div>
+
+              <br />
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Is it safe to ride bike at night?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong> Avoid biking at night</strong>
+
+                    istockphoto Biking at night is much more dangerous than riding during the day. If you must ride
+                    after dark, make sure your bike has reflectors and a bright light on both the front and rear.
+                    Wear reflective clothing, and don't assume that motorists can see you.
+                  </div>
+                </div>
+              </div>
+              <br />
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Which front bike light is best?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong> The best bike lights (front), in order of preference.</strong> Lezyne Hecto Drive
+                    400XL. Best bike light under £30 for urban riding. ... Exposure Strada SL. Best high-powered
+                    bicycle light for road cyclists. ... Beryl Laserlight Core. ... Lezyne Lite Drive 800XL. ...
+                    Knog Plus. ... Kryptonite Street F-450. ... Cateye Volt 6000. ... Moon Meteor.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Frequently Asked Questions end -->
+
+      <!-- extra section 1  and 2 for bonous marks -->
+      <section class="my-5 btn-light">
+        <div class="container my-5">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-sm-12">
+              <img src="images/news1.jpg" class="img-fluid p-5 rounded-circle" alt="" />
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
+                <label for="floatingInput">Email address</label>
+              </div>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>What kind of mail you want</option>
+                <option value="1">1. Discount offer</option>
+                <option value="2">2. New product</option>
+                <option value="3">3. Second-hand products</option>
+              </select>
+              <br />
+              <button type="submit" class="px-4 text-white btn color-b">Submit</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <h4>payment-method</h4>
+              <div>
+                <img src="images/payment-method.png" class="img-fluid" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <h4>Follow us</h4>
+              <div class="d-flex flex-row">
+                <div class="d-flex flex-column me-5">
+                  <a href=""><i class="fa-2x fab fa-instagram mt-3 text-black-50"></i> </a>
+                  <a href=""><i class="fa-2x fab fa-youtube mt-3 text-black-50"></i></a>
+                  <a href=""><i class="fa-2x fab fa-twitter mt-3 text-black-50"></i></a>
+                  <a href=""><i class="fa-2x fab fa-facebook mt-3 text-black-50"></i></a>
+                </div>
+                <div>
+                  <img src="images/socialpic.png" class="w-50" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- extra section 1 and 2  end for bonous marks -->
+    </main>
+    <footer>
+      <div class="text-center">
+        <h6>Copyright © 2021,Md-omar-faruke-programming-hero</h6>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

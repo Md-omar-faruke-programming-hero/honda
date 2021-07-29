@@ -1,0 +1,31 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header section */
+.backgroundcolor{
+    background: #264653;
+}
+.textcolor{
+    color: #E0E0E0
+    ;
+}
+.color-b{
+    background-color:  #E76F51;;
+}
+
+/* bike feature section */
+.grayscale{
+    filter: grayscale(100%);
+}
+.color{
+    color: #E76F51
+    ;
+}
+
+/* happy clients section */
+.color-p{
+    color: #6C6C6C
+    ;
+}
+
